@@ -118,6 +118,11 @@ button:active {
     pointer-events: all;
 }
 
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .shadow {
     background: rgb(138, 138, 138);
 }
