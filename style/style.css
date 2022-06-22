@@ -20,6 +20,19 @@ button {
     padding: 5px 60px;
 }
 
+.start-again-el {
+    display: block;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 5px 20px;
+    width: 40%;
+    opacity: 0;
+    pointer-events: none;
+}
+
 button:hover {
     background-color: rgb(250, 99, 99);
 }
@@ -80,6 +93,10 @@ button:active {
 
 .modal {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal p:nth-child(1) {
@@ -99,6 +116,11 @@ button:active {
 .show {
     opacity: 1;
     pointer-events: all;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
 }
 
 .shadow {
